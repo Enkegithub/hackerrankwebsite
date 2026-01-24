@@ -5,10 +5,10 @@ import * as XLSX from "xlsx"
 
 export default function ClubMembersPage() {
   const members = [
-    { name: "Nitesh Kumar", roll: "21CSE001", dept: "CSE" },
-    { name: "Rahul Sharma", roll: "21CSE002", dept: "CSE" },
-    { name: "Anjali Verma", roll: "21IT005", dept: "IT" },
-    { name: "Suman Reddy", roll: "21ECE010", dept: "ECE" },
+    { name: "", roll: "", dept: "CSE" },
+    { name: "", roll: "", dept: "CSE" },
+    { name: "", roll: "", dept: "IT" },
+    { name: "", roll: "", dept: "ECE" },
   ]
 
   const downloadExcel = () => {

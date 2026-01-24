@@ -11,7 +11,7 @@ export default function Council() {
   return (
     <section id="council" className="py-20 bg-background">
       <h2 className="text-4xl font-bold text-center mb-14">
-        HACKER RANK CLUB – 2025
+        HACKER RANK CLUB – 20226
       </h2>
 
       <div className="flex justify-center">
