@@ -1,59 +1,161 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-secondary text-secondary-foreground flex items-center justify-center py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-balance">
-            HACKER RANK 
-            <br />
-            PRESENTS
-            <br />
-            "META STORM"
+    <section className="relative min-h-screen bg-secondary text-secondary-foreground flex items-center justify-center overflow-hidden py-20">
+
+      {/* CRASHING STARS – LEFT */}
+      {[...Array(15)].map((_, i) => (
+        <span
+          key={`left-${i}`}
+          style={{
+            position: "absolute",
+            top: `${Math.random() * 40}%`,
+            left: "-10px",
+            width: "2px",
+            height: "2px",
+            background: "white",
+            opacity: 0.8,
+            animation: `crashLeft ${3 + Math.random() * 3}s linear infinite`,
+            animationDelay: `${Math.random() * 2}s`,
+          }}
+        />
+      ))}
+
+      {/* CRASHING STARS – RIGHT */}
+      {[...Array(15)].map((_, i) => (
+        <span
+          key={`right-${i}`}
+          style={{
+            position: "absolute",
+            top: `${Math.random() * 40}%`,
+            right: "-10px",
+            width: "2px",
+            height: "2px",
+            background: "white",
+            opacity: 0.8,
+            animation: `crashRight ${3 + Math.random() * 3}s linear infinite`,
+            animationDelay: `${Math.random() * 2}s`,
+          }}
+        />
+      ))}
+
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+
+        {/* HEADING */}
+        <div className="mb-10">
+          <h1 className="font-bold leading-tight">
+            <span className="block text-3xl sm:text-4xl md:text-5xl">
+              HACKER RANK
+            </span>
+            <span className="block text-xl sm:text-2xl md:text-3xl mt-1 opacity-80">
+              PRESENTS
+            </span>
+            <span className="block text-3xl sm:text-4xl md:text-5xl mt-2 text-primary">
+              “META STORM”
+            </span>
           </h1>
-          <p className="text-xl md:text-2xl font-light">
-            {'{'}Advancing the Technologies{'}'}
+
+          <p className="mt-4 text-base sm:text-lg md:text-xl font-light opacity-80">
+            {"{"}Advancing the Technologies{"}"}
           </p>
         </div>
 
-        {/* Decorative Circle */}
-        <div className="flex justify-center mt-12 relative">
-          <svg
-            viewBox="0 0 200 200"
-            className="w-48 h-48 md:w-80 md:h-80"
-          >
-            <circle cx="100" cy="100" r="90" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.5" />
-            <circle cx="100" cy="100" r="75" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.6" />
-            <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" strokeWidth="2" opacity="0.7" />
-            <path
-              d="M 100 40 Q 140 70 140 100 Q 140 130 100 160 Q 60 130 60 100 Q 60 70 100 40"
-              fill="currentColor"
-              opacity="0.3"
-            />
-          </svg>
-        </div>
+        {/* ORBIT SYSTEM */}
+        <div
+          style={{
+            position: "relative",
+            width: "360px",
+            height: "360px",
+            margin: "0 auto",
+            color: "white",
+          }}
+        >
+          {/* ORBIT 1 */}
+          <div style={{ position: "absolute", inset: 0, border: "1px dashed rgba(255,255,255,0.2)", borderRadius: "50%" }} />
+          <div style={{ position: "absolute", inset: 0, animation: "orbit1 14s linear infinite" }}>
+            <div style={{ position: "absolute", top: "-6px", left: "50%", width: "10px", height: "10px", background: "white", borderRadius: "50%", transform: "translateX(-50%)" }} />
+          </div>
 
-        {/* Social Links */}
-        <div className="flex justify-center gap-6 mt-16">
-          <a href="https://www.instagram.com/hackerrank.cse?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="p-3 rounded-full bg-secondary border-2 border-primary-foreground hover:bg-opacity-80 transition">
-            <span className="sr-only">Instagram</span>
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.69.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.322a1.44 1.44 0 110-2.88 1.44 1.44 0 010 2.88z" />
+          {/* ORBIT 2 */}
+          <div style={{ position: "absolute", inset: 30, border: "1px dashed rgba(255,255,255,0.25)", borderRadius: "50%" }} />
+          <div style={{ position: "absolute", inset: 30, animation: "orbit2 22s linear infinite reverse" }}>
+            <div style={{ position: "absolute", top: "-6px", left: "50%", width: "8px", height: "8px", background: "white", borderRadius: "50%", transform: "translateX(-50%)" }} />
+          </div>
+
+          {/* ORBIT 3 */}
+          <div style={{ position: "absolute", inset: 60, border: "1px dashed rgba(255,255,255,0.3)", borderRadius: "50%" }} />
+          <div style={{ position: "absolute", inset: 60, animation: "orbit3 30s linear infinite" }}>
+            <div style={{ position: "absolute", top: "-5px", left: "50%", width: "6px", height: "6px", background: "white", borderRadius: "50%", transform: "translateX(-50%)" }} />
+          </div>
+
+          {/* ROTATING TEXT */}
+          <div style={{ position: "absolute", inset: 40, animation: "spinText 26s linear infinite" }}>
+            <svg viewBox="0 0 200 200" width="100%" height="100%">
+              <defs>
+                <path
+                  id="textCircle"
+                  d="M 100,100 m -70,0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0"
+                />
+              </defs>
+              <text fill="white" fontSize="13" letterSpacing="4">
+                <textPath href="#textCircle">
+                  • HACKER RANK • META STORM • AI • INNOVATION •
+                </textPath>
+              </text>
             </svg>
-          </a>
-          <a href="#" className="p-3 rounded-full bg-secondary border-2 border-primary-foreground hover:bg-opacity-80 transition">
-            <span className="sr-only">Facebook</span>
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-            </svg>
-          </a>
-          <a href="#" className="p-3 rounded-full bg-secondary border-2 border-primary-foreground hover:bg-opacity-80 transition">
-            <span className="sr-only">YouTube</span>
-            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-            </svg>
-          </a>
+          </div>
+
+          {/* CENTER */}
+          <div
+            style={{
+              position: "absolute",
+              inset: 120,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              textAlign: "center",
+              fontWeight: "bold",
+              letterSpacing: "2px",
+            }}
+          >
+            META
+            <br />
+            STORM
+          </div>
         </div>
       </div>
+
+      {/* ANIMATIONS */}
+      <style>{`
+        @keyframes orbit1 {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+
+        @keyframes orbit2 {
+          from { transform: rotate(360deg); }
+          to { transform: rotate(0deg); }
+        }
+
+        @keyframes orbit3 {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+
+        @keyframes spinText {
+          from { transform: rotate(360deg); }
+          to { transform: rotate(0deg); }
+        }
+
+        @keyframes crashLeft {
+          from { transform: translate(0, 0); opacity: 1; }
+          to { transform: translate(60vw, 40vh); opacity: 0; }
+        }
+
+        @keyframes crashRight {
+          from { transform: translate(0, 0); opacity: 1; }
+          to { transform: translate(-60vw, 40vh); opacity: 0; }
+        }
+      `}</style>
     </section>
   )
 }
