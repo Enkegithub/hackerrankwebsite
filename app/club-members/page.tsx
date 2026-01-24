@@ -5,10 +5,17 @@ import * as XLSX from "xlsx"
 
 export default function ClubMembersPage() {
   const members = [
-    { name: "", roll: "", dept: "CSE" },
-    { name: "", roll: "", dept: "CSE" },
-    { name: "", roll: "", dept: "IT" },
-    { name: "", roll: "", dept: "ECE" },
+    { name: "R.Srinivasulu", Position: " Event Coordinator", dept: "CSE" },
+    { name: "A.Rishik Reddy", Position: "Event Coordinator", dept: "CSE" },
+    { name: "T.Praveen Reddy", Position: "Event Coordinator", dept: "CSE" },
+    { name: " S.Vishwashree", Position: "Event Coordinator", dept: "CSE" },
+    {name: " Vemula Vigneshwari", Position: "Event Coordinator", dept: "CSE" },
+    {name: "Sai Varshith", Position: "Event Coordinator", dept: "CSE" },
+    {name: " Sama Usha Reddy", Position: "Event Coordinator", dept: "CSE" },
+    {name: " Krishanu choudhary", Position: "Designer", dept: "CSE" },
+    {name: "Ansh Mohatta", Position: "Designer", dept: "CSE" },
+    {name: " RAVI YADAV", Position: "Tech-Member", dept: "CSE" },
+    {name: "AFROJ ALAM", Position: "Tech-Member", dept: "CSE" },
   ]
 
   const downloadExcel = () => {
@@ -36,7 +43,7 @@ export default function ClubMembersPage() {
           <thead className="bg-muted">
             <tr>
               <th className="border px-4 py-2">Name</th>
-              <th className="border px-4 py-2">Roll No</th>
+              <th className="border px-4 py-2">Position</th>
               <th className="border px-4 py-2">Department</th>
             </tr>
           </thead>
@@ -44,7 +51,7 @@ export default function ClubMembersPage() {
             {members.map((m, i) => (
               <tr key={i} className="text-center">
                 <td className="border px-4 py-2">{m.name}</td>
-                <td className="border px-4 py-2">{m.roll}</td>
+                <td className="border px-4 py-2">{m.Position}</td>
                 <td className="border px-4 py-2">{m.dept}</td>
               </tr>
             ))}

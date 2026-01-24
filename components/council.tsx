@@ -1,6 +1,6 @@
 export default function Council() {
   const members = [
-    { id: 1, name: "Nitesh Kushwaha", role: "CLUB LEAD", image: "/contact.jpg" },
+    { id: 1, name: "Nitesh Kushwaha", role: "CLUB LEAD", image: "/nk.heic" },
     { id: 2, name: "Pushpa Bhandari", role: "VICE LEAD", image: "/member2.jpg" },
     { id: 3, name: "Newton Adhikari", role: "TECH HEAD", image: "/member3.jpg" },
     { id: 4, name: "Pranshu Chaudhary", role: "EVENT HEAD", image: "/member4.jpg" },
@@ -11,7 +11,7 @@ export default function Council() {
   return (
     <section id="council" className="py-20 bg-background">
       <h2 className="text-4xl font-bold text-center mb-14">
-        HACKER RANK CLUB – 20226
+        HACKER RANK CLUB – 2026
       </h2>
 
       <div className="flex justify-center">
