@@ -1,4 +1,5 @@
-import { Instagram, Facebook, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+
 
 export default function Footer() {
   return (
@@ -15,33 +16,55 @@ export default function Footer() {
               A student-driven technical community fostering coding culture,
               innovation, and industry-ready skills at GNIT.
             </p>
+<div className="flex gap-4">
+  <a
+    href="https://www.instagram.com/hackerrank.cse"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-full bg-secondary hover:scale-110 transition"
+    aria-label="Instagram"
+  >
+    <Instagram size={20} />
+  </a>
 
-            <div className="flex gap-4">
-              <a className="p-3 rounded-full bg-secondary hover:scale-110 transition">
-                <Instagram size={20} />
-              </a>
-              <a className="p-3 rounded-full bg-secondary hover:scale-110 transition">
-                <Facebook size={20} />
-              </a>
-              <a className="p-3 rounded-full bg-secondary hover:scale-110 transition">
-                <Youtube size={20} />
-              </a>
-            </div>
+  <a
+    href="https://www.linkedin.com/company/hacker-rank-club-gnit"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-full bg-secondary hover:scale-110 transition"
+    aria-label="LinkedIn"
+  >
+    <Linkedin size={20} />
+  </a>
+</div>
+
           </div>
 
           {/* Coordinators */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Coordinators</h3>
+            {/* <h3 className="text-xl font-bold mb-6">Coordinators</h3> */}
 
             <div className="space-y-5 text-sm">
               <div>
                 <p className="font-semibold uppercase tracking-wide">
-                  Faculty Coordinator
+                  Coordinator
                 </p>
                 <p className="mt-1 font-semibold">Dr. B. Santhosh Kumar</p>
                 <p className="opacity-80">HOD, CSE – GNIT</p>
               </div>
-
+              <div>
+                <p className="font-semibold uppercase tracking-wide">
+                  Faculty Coordinators
+                </p>
+                <p>
+                  <span className="font-semibold">Mrs. B. Ranjitha</span>
+                  <span className="opacity-80"> · Asst. Professor, CSE</span>
+                </p>
+                <p>
+                  <span className="font-semibold">Mr. K. Vigneshwar</span>
+                  <span className="opacity-80"> · Asst. Professor, CSE</span>
+                </p>
+              </div>
               <div>
                 <p className="font-semibold uppercase tracking-wide">
                   Student Coordinators
@@ -53,20 +76,6 @@ export default function Footer() {
                 <p>
                   <span className="font-semibold">Kishore Voodi</span>
                   <span className="opacity-80"> · +91 82470 51922</span>
-                </p>
-              </div>
-
-              <div>
-                <p className="font-semibold uppercase tracking-wide">
-                  Faculty Members
-                </p>
-                <p>
-                  <span className="font-semibold">Mrs. B. Ranjitha</span>
-                  <span className="opacity-80"> · Asst. Professor, CSE</span>
-                </p>
-                <p>
-                  <span className="font-semibold">Mr. K. Vigneshwar</span>
-                  <span className="opacity-80"> · Asst. Professor, CSE</span>
                 </p>
               </div>
             </div>
@@ -108,7 +117,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-90">
           <p>© 2026 Hacker Rank Club – GNIT. All rights reserved.</p>
           <p>
-            Designed & Developed by{" "}
+            Designed & Developed by – {" "}
             <span className="font-semibold">Nitesh Kushwaha</span>
           </p>
         </div>

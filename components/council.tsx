@@ -1,11 +1,14 @@
 export default function Council() {
   const members = [
-    { id: 1, name: "Nitesh Kushwaha", role: "CLUB LEAD", image: "/nk.heic" },
-    { id: 2, name: "Pushpa Bhandari", role: "VICE LEAD", image: "/member2.jpg" },
-    { id: 3, name: "Newton Adhikari", role: "TECH HEAD", image: "/member3.jpg" },
-    { id: 4, name: "Pranshu Chaudhary", role: "EVENT HEAD", image: "/member4.jpg" },
-    { id: 5, name: "Kishor Vodi", role: "DESIGN HEAD", image: "/member5.jpg" },
-    { id: 6, name: "Shreetrith ", role: "PR HEAD", image: "/member6.jpg" },
+    { id: 1, name: "Newton Adhikari", role: "President", image: "/newton.png" },
+    { id: 2, name: " Pranshu Choudhary", role: " Treasurer", image: "/pranshu.jpeg" },
+    { id: 3, name: "Kishore Voodi", role: "Vice President", image: "/kishor.jpeg" },
+    { id: 4, name: "Shreetirth Talpallikar", role: "Secretary(BOYS)", image: "/shree.jpeg" },
+    { id: 5, name: "Nitesh Kushwaha", role: "Technical Head", image: "/enk.png" },
+    { id: 6, name: "Pushpa Bhandari ", role: "Secretary(GIRLS)", image: "/pp.JPG" },
+    { id: 7, name: " Bishal Bista", role: " Student Repesentative(BOYS)", image: "/bishal.jpeg" },
+    { id: 8, name: " Jangam Ashwik", role: "SOCIAL MEDIA HEAD ", image: "/nk.jpeg" },
+    { id: 9, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/neha.jpeg" },
   ]
 
   return (

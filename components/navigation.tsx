@@ -13,6 +13,7 @@ export default function Navigation() {
     { label: 'Club', href: '#student-branch' },
      { label: 'Teams', href: '#council' },
     { label: 'Events', href: '#events' },
+    // {label: 'Glimpse', href: '#glimpse' },
     { label: 'Contact Us', href: '#contact' },
     { label: 'Club Members', href: '/club-members'},
 
