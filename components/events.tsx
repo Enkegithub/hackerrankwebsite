@@ -29,7 +29,7 @@ export default function Events() {
                   <div className="bg-primary/10 border-l-4 border-primary p-8 rounded-r-lg hover:shadow-lg transition-shadow">
                     <h3 className="text-2xl font-bold mb-3">{event.title}</h3>
                     <p className="text-base text-muted-foreground mb-4">Date: {event.date}</p>
-                    <p className="text-base text-muted-foreground">Event description goes here with more details about what this event entails and the activities involved.</p>
+                    <p className="text-base text-muted-foreground">Event description</p>
                   </div>
                 </div>
 

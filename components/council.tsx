@@ -5,7 +5,7 @@ export default function Council() {
     { id: 3, name: "Kishore Voodi", role: "Vice President", image: "/kishor.jpeg" },
     { id: 4, name: "Shreetirth Talpallikar", role: "Secretary(BOYS)", image: "/shree.jpeg" },
     { id: 5, name: "Nitesh Kushwaha", role: "Technical Head", image: "/enk.png" },
-    { id: 6, name: "Pushpa Bhandari ", role: "Secretary(GIRLS)", image: "/pp.JPG" },
+    { id: 6, name: "Pushpa Bhandari ", role: "Secretary(GIRLS)", image: "/puspa.jpeg" },
     { id: 7, name: " Bishal Bista", role: " Student Repesentative(BOYS)", image: "/bishal.jpeg" },
     { id: 8, name: " Jangam Ashwik", role: "Social Media Head ", image: "/aswik.jpeg" },
     { id: 9, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/neha.jpeg" },
