@@ -28,7 +28,7 @@ export default function Footer() {
   </a>
 
   <a
-    href="https://www.linkedin.com/company/hacker-rank-club-gnit"
+    href="https://www.linkedin.com/company/hackerrank-club-cse-gnit/"
     target="_blank"
     rel="noopener noreferrer"
     className="p-3 rounded-full bg-secondary hover:scale-110 transition"
