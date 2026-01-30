@@ -14,7 +14,7 @@ export default function CoordinatorMessage() {
       role: "Faculty Coordinator, CSE",
       message:
         "Through continuous learning, coding culture, and collaborative activities, the club empowers students to become confident professionals ready for industry and research excellence.",
-      image: "/coordinators/ranjitha.jpg",
+      image: "https://www.gnithyd.ac.in/images/cse/Bandi.webp",
     },
     {
       name: "Mr. K. Vigneshwar",
