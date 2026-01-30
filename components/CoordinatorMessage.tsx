@@ -7,7 +7,7 @@ export default function CoordinatorMessage() {
       role: "Faculty Coordinator & HOD, CSE",
       message:
         "The Hacker Rank Club plays a vital role in nurturing problem-solving skills and preparing students for real-world technical challenges. I am proud of the enthusiasm and innovation demonstrated by our students.",
-      image: "/coordinators/santhosh.jpg",
+      image: "https://www.gnithyd.ac.in/images/cse/csehod.webp",
     },
     {
       name: "Mrs. B. Ranjitha",
