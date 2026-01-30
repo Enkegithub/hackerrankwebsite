@@ -21,7 +21,7 @@ export default function CoordinatorMessage() {
       role: "Faculty Coordinator, CSE",
       message:
         "The club encourages creativity, discipline, and innovation. Such initiatives bridge the gap between academics and industry expectations, shaping students into capable engineers.",
-      image: "/coordinators/vigneshwar.jpg",
+      image: "https://www.gnithyd.ac.in/images/cse/Vigneshwar.webp",
     },
   ]
 
