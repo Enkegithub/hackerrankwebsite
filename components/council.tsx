@@ -3,17 +3,17 @@ import { id } from "date-fns/locale"
 export default function Council() {
   const members = [
     { id: 1, name: "Newton Adhikari", role: "President", image: "/newton.png" },
-    { id: 3, name: "Kishore Voodi", role: "Vice President", image: "/kishor.jpeg" },
-    { id: 6, name: "Pushpa Bhandari ", role: "Secretary(GIRLS)", image: "/puspa.jpeg" },
-     { id: 4, name: "Shreetirth Talpallikar", role: "Secretary(BOYS)", image: "/shree.jpeg" },
-    { id: 2, name: " Pranshu Choudhary", role: " Treasurer", image: "/pranshu.jpeg" },
-    { id: 5, name: "Nitesh Kushwaha", role: "Technical Head", image: "/enk.png" },
-    { id: 8, name: " Jangam Ashwik", role: "Social Media Head ", image: "/aswik.jpeg" },
-    {id: 10, name: " Sathish", role: "Creative head", image: "/rishav.jpeg" },
-    { id: 7, name: " Bishal Bista", role: " Student Repesentative(BOYS)", image: "/bishal.jpeg" },
-    { id: 9, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/neha.jpeg" },
-    { id: 11, name: " Rishav Raj", role: "Student Repesentative(BOYS)", image: "/sathish.jpeg" },
-    {id: 12, name: " Ankit Kumar", role: "Student Repesentative(GIRLS)", image: "/ankit.jpeg" },
+    { id: 2, name: "Kishore Voodi", role: "Vice President", image: "/kishor.jpeg" },
+    { id: 3, name: "Pushpa Bhandari ", role: "Secretary(GIRLS)", image: "/puspa.jpeg" },
+    { id: 4, name: "Shreetirth Talpallikar", role: "Secretary(BOYS)", image: "/shree.jpeg" },
+    { id: 5, name: " Pranshu Choudhary", role: " Treasurer", image: "/pranshu.jpeg" },
+    { id: 6, name: "Nitesh Kushwaha", role: "Technical Head", image: "/enk.png" },
+    { id: 7, name: " Jangam Ashwik", role: "Social Media Head ", image: "/aswik.jpeg" },
+    { id: 8, name: " Sathish", role: "Creative head", image: "/rishav.jpeg" },
+    { id: 9, name: " Bishal Bista", role: " Student Repesentative(BOYS)", image: "/bishal.jpeg" },
+    { id: 10, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/neha.jpeg" },
+    { id: 11, name: " Praveen Reddy", role: "Student Repesentative(BOYS)", image: "/sathish.jpeg" },
+    { id: 12, name: "  Vishwasree", role: "Student Repesentative(GIRLS)", image: "/ankit.jpeg" },
   ]
 
   return (
@@ -27,9 +27,8 @@ export default function Council() {
           {members.map((m, i) => (
             <div
               key={m.id}
-              className={`flex flex-col items-center ${
-                i % 2 !== 0 ? "mt-12" : ""
-              }`}
+              className={`flex flex-col items-center ${i % 2 !== 0 ? "mt-12" : ""
+                }`}
             >
               {/* Hexagon Image */}
               <div

@@ -5,6 +5,16 @@ import * as XLSX from "xlsx"
 
 export default function ClubMembersPage() {
   const members = [
+    { name: "Newton Adhikari", Position: "President", dept: "CSE" },
+    { name: "Kishore Voodi", Position: "Vice President", dept: "CSE" },
+    { name: "Pushpa Bhandari", Position: "Secretary(GIRLS)", dept: "CSE" },
+    { name: "Shreetirth Talpallikar", Position: "Secretary(BOYS)", dept: "CSE" },
+    { name: "Pranshu Choudhary", Position: " Treasurer", dept: "CSE" },
+    { name: "Nitesh Kushwaha", Position: "Technical Head", dept: "CSE" },
+    { name: "Jangam Ashwik", Position: "Social Media Head ", dept: "CSE" },
+    { name: "Sathish", Position: "Creative head", dept: "CSE" },
+    { name: "Bishal Bista", Position: " Student Repesentative(BOYS)", dept: "CSE" },
+    { name: "Yepuri Neha", Position: " Student Repesentative(GIRLS)", dept: "CSE" }, 
     { name: "R.Srinivasulu", Position: " Event Coordinator", dept: "CSE" },
     { name: "A.Rishik Reddy", Position: "Event Coordinator", dept: "CSE" },
     { name: "T.Praveen Reddy", Position: "Event Coordinator", dept: "CSE" },
@@ -14,8 +24,8 @@ export default function ClubMembersPage() {
     {name: " Sama Usha Reddy", Position: "Event Coordinator", dept: "CSE" },
     {name: " Krishanu choudhary", Position: "Designer", dept: "CSE" },
     {name: "Ansh Mohatta", Position: "Designer", dept: "CSE" },
-    {name: " RAVI YADAV", Position: "Tech-Member", dept: "CSE" },
-    {name: "AFROJ ALAM", Position: "Tech-Member", dept: "CSE" },
+    {name: " Ravi Yadav", Position: "Tech-Member", dept: "CSE" },
+    {name: "Afroj Alam", Position: "Tech-Member", dept: "CSE" },
   ]
 
   const downloadExcel = () => {
