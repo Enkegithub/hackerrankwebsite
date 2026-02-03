@@ -11,9 +11,10 @@ export default function Council() {
     { id: 7, name: " Jangam Ashwik", role: "Social Media Head ", image: "/aswik.jpeg" },
     { id: 8, name: " Sathish", role: "Creative head", image: "/rishav.jpeg" },
     { id: 9, name: " Bishal Bista", role: " Student Repesentative(BOYS)", image: "/bishal.jpeg" },
-    { id: 10, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/neha.jpeg" },
-    { id: 11, name: " Praveen Reddy", role: "Student Repesentative(BOYS)", image: "/sathish.jpeg" },
-    { id: 12, name: "  Vishwasree", role: "Student Repesentative(GIRLS)", image: "/ankit.jpeg" },
+    { id: 10, name: "Yepuri Neha", role: " Student Repesentative(GIRLS)", image: "/nehaa.jpeg" },
+    { id: 11, name: "  Vishwasree", role: "Student Repesentative(GIRLS)", image: "/ankit.jpeg" },
+    { id: 12, name: " Praveen Reddy", role: "Student Repesentative(BOYS)", image: "/sathish.jpeg" },
+    
   ]
 
   return (
