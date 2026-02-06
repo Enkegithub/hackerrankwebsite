@@ -60,4 +60,6 @@ http://localhost:3000
   <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015132.png?raw=true" width="900" />
 </p>
 
-
+<p align="center">
+<img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015200.png?raw=true" width="900"/>
+  </p>
