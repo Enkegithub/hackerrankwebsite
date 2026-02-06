@@ -51,3 +51,7 @@ http://localhost:3000
        alt="Hacker Rank Club Website Screenshot"
        width="800">
 </p>
+<p align="center">
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015117.png?raw=true" alt="Website Screenshot" width="900" />
+</p>
+
