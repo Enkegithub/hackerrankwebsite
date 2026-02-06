@@ -41,4 +41,9 @@ npm run dev
 Open in browser:
 
 http://localhost:3000
+<p align="center">
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015047.png?raw=true" 
+       alt="Hacker Rank Club Website Screenshot"
+       width="800">
+</p>
 
