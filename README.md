@@ -1,30 +1,3 @@
-ieee-website/
-├── app/
-│   ├── page.tsx
-│   ├── layout.tsx
-│
-├── components/
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── Council.tsx
-│   ├── Events.tsx
-│   ├── Glimpse.tsx
-│   ├── CoordinatorMessage.tsx
-│   ├── Contact.tsx
-│   └── Footer.tsx
-│
-├── public/
-│   ├── logo.png
-│   ├── contact.jpg
-│   ├── glimpse/
-│   └── coordinators/
-│
-├── styles/
-│   └── globals.css
-│
-├── next.config.js
-├── package.json
-└── README.md
 
 ⚙️ Installation & Setup
 
@@ -42,20 +15,14 @@ Open in browser:
 
 http://localhost:3000
 <p align="center">
-  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015047.png?raw=true" 
-       alt="Hacker Rank Club Website Screenshot"
-       width="800">
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015047.png?raw=true" width="900">
 </p>
 <p align="center">
-  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015059.png?raw=true" 
-       alt="Hacker Rank Club Website Screenshot"
-       width="800">
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015059.png?raw=true"  width="900"/>
 </p>
 <p align="center">
-  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015117.png?raw=true" alt="Website Screenshot" width="900" />
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015117.png?raw=true" width="900" />
 </p>
-## 📸 Website Preview
-
 <p align="center">
   <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015132.png?raw=true" width="900" />
 </p>
@@ -63,3 +30,6 @@ http://localhost:3000
 <p align="center">
 <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015200.png?raw=true" width="900"/>
   </p>
+<p align="center">
+<img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015227.png?raw=true" width="900"/>
+</p>
