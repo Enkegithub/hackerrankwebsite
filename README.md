@@ -54,4 +54,10 @@ http://localhost:3000
 <p align="center">
   <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015117.png?raw=true" alt="Website Screenshot" width="900" />
 </p>
+## 📸 Website Preview
+
+<p align="center">
+  <img src="https://github.com/Enkegithub/hackerrankwebsite/blob/main/Screenshot%202026-02-07%20015132.png?raw=true" width="900" />
+</p>
+
 
