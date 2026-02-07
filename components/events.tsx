@@ -97,7 +97,7 @@ export default function Events() {
       className="inline-block"
     >
       <button className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:scale-105 transition-transform">
-        REGISTER NOW
+        REGISTATION CLOSED
       </button>
     </a>
   </div>
