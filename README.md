@@ -2,7 +2,7 @@
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/hacker-rank-club-gnit.git
+git clone https://github.com/Enkegithub/hacker-rank-club-gnit.git
 cd hacker-rank-club-gnit    
 2️⃣ Install Dependencies
 npm install
