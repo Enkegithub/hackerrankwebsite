@@ -1,36 +1,31 @@
+import { Description } from "@radix-ui/react-toast"
+import { title } from "process"
+
 export default function Events() {
   const events = [
     {
       id: 1,
-      title: "Knowledge Knockout Quiz",
-      date: "02-09-2026",
+      title: "WEB DEVELOPMENT",
+      date: "17-09-2026",
       description:
-        "Knowledge Knockout is a technical quiz event designed to test participants’ knowledge, speed, and coding skills. The event consists of three progressive rounds, starting from basic rapid-fire questions, moving to an interactive buzzer round, and concluding with a challenging coding round. It encourages teamwork, logical thinking, and problem-solving skills among students",
+        "",
 
     },
+
     {
       id: 2,
-      title: "Tech Treasure Hunt",
-      date: "02-10-2026",
-      description:
-        "The Lost Legacy is an interactive technical event designed to test participants’ logical thinking, problem-solving skills, and teamwork. The event requires the teams to follow clues across the campus and collect code fragments. At each location, a QR code provides part of a program, while a physical clue leads to the next location. After gathering all code parts, teams compile and execute the program to complete the hunt. The event encourages analytical thinking, collaboration, and quick decision-making in a fun and competitive environmen",
+      title: "UI/UX Design",
+      date:"03-11-2026",
+      Description:"content.............."
     },
-    {
+      {
       id: 3,
-      title: "Pitch Battle",
-      date: "02-09-2026",
-      description:
-        "Pitch Battle  is an innovation-driven competition where participants present their unique ideas to solve real-world problems. Teams or individuals brainstorm, design, and pitch their concepts within a limited time to a panel of judges. The event encourages creativity, critical thinking, and entrepreneurial skills, providing a platform to transform ideas into impactful solutions through persuasive pitching. ",
-
+      title: "Videography&photography",
+      date:"17-11-2026",
+      Description:"content.............."
     },
-    {
-      id: 4,
-      title: "PLAY FORGE (E-Sports)",
-      date: "02-09 & 10-2026",
-      description:
-        "Esports (short for electronic sports) is competitive video gaming, where players or teams compete against each other in organized tournaments, leagues, or matches—often for prize money, rankings, and titles.",
-
-    },
+    
+    
   ]
 
   return (
@@ -83,7 +78,7 @@ export default function Events() {
 <div className="mt-20 bg-secondary text-secondary-foreground p-12 rounded-lg shadow-xl">
   <div className="max-w-6xl ml-auto text-left">
     <h3 className="text-4xl font-bold mb-4">
-      HACKER RANK – META STORM
+      HACKER RANK – CreateX 2026
     </h3>
 
     <p className="text-lg mb-8 leading-relaxed">
@@ -91,13 +86,13 @@ export default function Events() {
     </p>
 
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfPmKgYZRLOl19dOsR3AZUQvZPNNOLsjgIHrH9JpJZK_c88fw/closedform"
+      href="https://forms.gle/DE1pjp7mCxhgar3T7"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block"
     >
       <button className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:scale-105 transition-transform">
-        REGISTATION CLOSED
+         Register Here
       </button>
     </a>
   </div>

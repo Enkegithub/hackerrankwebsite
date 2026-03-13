@@ -50,7 +50,7 @@ export default function Hero() {
               PRESENTS
             </span>
             <span className="block text-3xl sm:text-4xl md:text-5xl mt-2 text-primary">
-              “META STORM”
+              “CREATE X”
             </span>
           </h1>
 
@@ -98,7 +98,7 @@ export default function Hero() {
               </defs>
               <text fill="white" fontSize="13" letterSpacing="4">
                 <textPath href="#textCircle">
-                  • HACKER RANK • META STORM • AI • INNOVATION •
+                  • HACKER RANK • CREATE X  • AI • INNOVATION •
                 </textPath>
               </text>
             </svg>
@@ -117,9 +117,9 @@ export default function Hero() {
               letterSpacing: "2px",
             }}
           >
-            META
+            CREATE
             <br />
-            STORM
+            X
           </div>
         </div>
       </div>

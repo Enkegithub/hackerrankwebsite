@@ -2,12 +2,17 @@ import Image from "next/image"
 
 export default function GlimpsePage() {
   const images = [
-    "/glimpse/1.jpg",
-    "/glimpse/2.jpg",
+    
+    "/glimpse/2.JPG",
     "/glimpse/3.jpg",
-    "/glimpse/4.jpg",
-    "/glimpse/5.jpg",
-    "/glimpse/6.jpg",
+    "/glimpse/4.JPG",
+    "/glimpse/5.JPG",
+    "/glimpse/6.JPG",
+    "/glimpse/7.JPG",
+    "/glimpse/8.JPG",
+    "/glimpse/9.JPG",
+    "/glimpse/1.JPG",
+   
   ]
 
   return (

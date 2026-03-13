@@ -5,7 +5,7 @@ import StudentBranch from '@/components/student-branch'
 import Council from '@/components/council'
 import Events from '@/components/events'
 // import CoordinatorMessage from '@/components/CoordinatorMessage'
-// import Glimpse from "@/components/Glimpse"
+import Glimpse from "@/components/Glimpse"
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
 
@@ -19,7 +19,7 @@ export default function Home() {
       <Council />
       <Events />
       {/* <CoordinatorMessage/> */}
-      {/* <Glimpse /> */}
+      <Glimpse />
       <Contact />
       <Footer />
     </div>
