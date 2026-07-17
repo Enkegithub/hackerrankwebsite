@@ -122,7 +122,7 @@ export default function Footer() {
     href="https://niteshkushwaha.com.np"
     target="_blank"
     rel="noopener noreferrer"
-    className="font-semibold text-blue-600 hover:underline"
+    className="font-semibold text-white-600 hover:underline"
   >
     Nitesh Kushwaha
   </a>
