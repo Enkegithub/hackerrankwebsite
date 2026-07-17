@@ -116,10 +116,17 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-90">
           <p>© 2026 Hacker Rank Club – GNIT. All rights reserved.</p>
-          <p>
-            Designed & Developed by – {" "}
-            <span className="font-semibold">Nitesh Kushwaha</span>
-          </p>
+         <p>
+  Designed & Developed by –{" "}
+  <a
+    href="https://niteshkushwaha.com.np"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-blue-600 hover:underline"
+  >
+    Nitesh Kushwaha
+  </a>
+</p>
         </div>
       </div>
     </footer>
